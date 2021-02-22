@@ -1,6 +1,13 @@
-.navbar {
+.navbarRow {
+  display: flex;
+  align-content: center;
   height: 40px;
-  background-color: aqua;
+  background-color: bisque;
 
-  font-size: large;
+  font-size: 22px;
+}
+
+.navbarright {
+  position: relative;
+  margin-left: auto;
 }

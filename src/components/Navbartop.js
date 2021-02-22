@@ -6,31 +6,35 @@ export default class Navbartop extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <span className="navbarleft" align="left">
-          <Link
-            to="/"
-            className={
-              window.location.pathname === "/" ||
-              window.location.pathname === "/about"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >
-            About
-          </Link>
-        </span>
-        <span className="navbarright" align="right">
-          <Link
-            to="/discover"
-            className={
-              window.location.pathname === "/Portfolio"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >
-            Portfolio
-          </Link>
-        </span>
+        <div className="navbarRow">
+          <div className="navbarleft">
+            <Link
+              to="/"
+              className={
+                window.location.pathname === "/" ||
+                window.location.pathname === "/home"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+              style={{ color: "red" }}
+            >
+              About/Contact
+            </Link>
+          </div>
+          <div className="navbarright">
+            <Link
+              to="/portfolio"
+              className={
+                window.location.pathname === "/Portfolio"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+              style={{ color: "red" }}
+            >
+              Portfolio
+            </Link>
+          </div>
+        </div>
       </nav>
     );
   }

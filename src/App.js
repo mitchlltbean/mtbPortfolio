@@ -5,7 +5,7 @@ import Portfolio from "./pages/Portfolio";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="app">
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
       </div>
