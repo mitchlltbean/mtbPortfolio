@@ -1,0 +1,24 @@
+/*Footer*/
+.footer-game {
+  bottom: 0;
+  background-color: #92643b;
+  width: 100%;
+  min-height: 5vh;
+}
+
+.footer {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    margin-bottom: 0;
+  }
+  .footer-game {
+    position: relative;
+  }
+}

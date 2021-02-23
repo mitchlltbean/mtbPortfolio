@@ -16,7 +16,7 @@ export default class Navbartop extends Component {
                   ? "nav-link active"
                   : "nav-link"
               }
-              style={{ color: "red" }}
+              style={{ color: "bisque" }}
             >
               About/Contact
             </Link>
@@ -29,7 +29,7 @@ export default class Navbartop extends Component {
                   ? "nav-link active"
                   : "nav-link"
               }
-              style={{ color: "red" }}
+              style={{ color: "bisque" }}
             >
               Portfolio
             </Link>

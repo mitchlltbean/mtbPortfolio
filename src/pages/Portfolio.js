@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbartop from "../components/Navbartop";
 import Portcontent from "../components/Portcontent";
+import Footer from "../components/Footer";
 
 export default class Portfolio extends Component {
   render() {
@@ -8,6 +9,7 @@ export default class Portfolio extends Component {
       <div>
         <Navbartop />
         <Portcontent />
+        <Footer />
       </div>
     );
   }
