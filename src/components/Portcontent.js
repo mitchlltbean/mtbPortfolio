@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Capture from "../images/Capture.PNG";
+import p3 from "../images/p3.PNG";
 import Capture1 from "../images/Capture1.PNG";
 import Capture3 from "../images/Capture3.PNG";
 import project2 from "../images/project2.PNG";
@@ -58,6 +58,23 @@ export default class Portcontent extends Component {
           </a>
           <br />
           <br />
+          <h1>AutoFlower</h1>
+          <img src={p3} alt="image of homework" width="450" height="350" />
+          <br></br>
+          <a
+            class="navbar-item"
+            href="https://github.com/mitchlltbean/AutoflowerFE"
+          >
+            {" "}
+            Link to Deployed Version{" "}
+          </a>
+          <br></br>
+          <a class="navbar-item" href="https://autoflower.herokuapp.com/">
+            {" "}
+            Link to Github Repo{" "}
+          </a>
+          <br />
+          <br />
 
           <h1>Day Planner</h1>
           <img
@@ -78,27 +95,6 @@ export default class Portcontent extends Component {
           <a
             class="navbar-item"
             href="https://github.com/mitchlltbean/PlannerMTB"
-          >
-            {" "}
-            Link to Github Repo{" "}
-          </a>
-          <br />
-          <br />
-
-          <h1>Password Generator</h1>
-          <img src={Capture} alt="image of homework" width="450" height="350" />
-          <br></br>
-          <a
-            class="navbar-item"
-            href="https://mitchlltbean.github.io/PasswordMtb/"
-          >
-            {" "}
-            Link to Deployed Version{" "}
-          </a>
-          <br></br>
-          <a
-            class="navbar-item"
-            href="https://github.com/mitchlltbean/PasswordMtb"
           >
             {" "}
             Link to Github Repo{" "}

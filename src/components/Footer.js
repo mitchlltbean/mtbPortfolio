@@ -4,7 +4,7 @@ import "./Footer.css";
 export default class Footer extends Component {
   render() {
     return (
-      <div>
+      <div className="cont">
         <footer className="footer-game">
           <p>
             <strong>MTB</strong>
